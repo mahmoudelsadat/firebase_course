@@ -10,6 +10,8 @@ import '../../models/user_model.dart';
 import 'package:intl/intl.dart';
 
 class PrescriptionListScreen extends StatefulWidget {
+  const PrescriptionListScreen({super.key});
+
   @override
   _PrescriptionListScreenState createState() => _PrescriptionListScreenState();
 }
